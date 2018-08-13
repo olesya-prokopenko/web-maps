@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тест WEB карты</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+
+  <link rel="stylesheet" href="https://2gis.github.io/mapsapi/vendors/Leaflet.markerCluster/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://2gis.github.io/mapsapi/vendors/Leaflet.markerCluster/MarkerCluster.Default.css" />
+  <script src="https://maps.api.2gis.ru/2.0/cluster_realworld.js"></script>
+
+  <link rel="stylesheet" href="libs/normalize/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="page">
+    <div class="page__map">
+      <div id="map" class="map"></div>
+    </div>
+    <div class="page__search">
+      <div class="search-panel">
+        <div class="search-panel__inner-wrapper">
+          <input type="text" class="search-panel__field" placeholder="Введите название">
+          <button type="submit" class="search-panel__button"></button>
+        </div>
+        <div class="search-panel__info">
+          <div class="search-panel__info-title">
+            <div class="search-panel__info-title-name">
+              Москва
+            </div>
+            <div class="search-panel__info-title-img">
+              <img src="img/kremlin.png" alt="kremlin">
+            </div>
+          </div>
+          <div class="search-panel__result">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

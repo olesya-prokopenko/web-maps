@@ -1,0 +1,15 @@
+.page {
+  position: relative;
+
+  &__search {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+  }
+
+  @media (max-width: 430px) {
+    &__search {
+      width: calc(100% - 20px - 10px - 60px);
+    }
+  }
+}

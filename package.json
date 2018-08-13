@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "autoprefixer": "6.4.1",
+    "gulp": "3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-postcss": "6.1.1"
+  }
+}
